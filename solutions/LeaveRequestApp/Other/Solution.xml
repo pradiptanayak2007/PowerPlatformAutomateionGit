@@ -84,6 +84,7 @@
     <RootComponents>
       <RootComponent type="1" schemaName="ms_employee" behavior="0" />
       <RootComponent type="1" schemaName="ms_leaverequest" behavior="0" />
+      <RootComponent type="300" schemaName="ms_leaveapplicationform_e1d73" behavior="0" />
     </RootComponents>
     <MissingDependencies />
   </SolutionManifest>
