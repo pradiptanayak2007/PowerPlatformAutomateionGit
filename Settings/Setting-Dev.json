@@ -1,0 +1,9 @@
+	{
+	  "EnvironmentVariables": [
+	    {
+	      "SchemaName": "ms_ManagerDefaultValue",
+	      "Value": "200"
+	    }
+	  ],
+	  "ConnectionReferences": []
+}
