@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{d7d72b14-f178-4c97-8d9e-8d9054c27741}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{a885d471-9933-4e7e-871f-06184ee497d7}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{f352c4d1-f351-40b4-a152-e9d085004a4d}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{63d1d4e2-f5e2-4e3c-890b-e6ef6f7e0c6f}">
+                        <labels>
+                          <label description="Leave Request" languagecode="1033" />
+                        </labels>
+                        <control id="ms_leaverequest1" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="ms_leaverequest1" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4bda3430-43fb-4b26-b727-0b3787bd0620}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ebd70d64-d01e-4dcd-922b-e5402848aaed}">
+                        <labels>
+                          <label description="Employee" languagecode="1033" />
+                        </labels>
+                        <control id="ms_employeeid" classid="{270bd3db-d9af-4782-9025-509e298dec0a}" datafieldname="ms_employeeid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6f28552d-9cfa-4379-b710-851c60953197}">
+                        <labels>
+                          <label description="Leave Type" languagecode="1033" />
+                        </labels>
+                        <control id="ms_leavetype" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="ms_leavetype" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2ac8f825-4d24-4bdf-944d-d402cf75ae50}">
+                        <labels>
+                          <label description="Start Date" languagecode="1033" />
+                        </labels>
+                        <control id="ms_startdate" classid="{5b773807-9fb2-42db-97c3-7a91eff8adff}" datafieldname="ms_startdate" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{11f5141d-8087-42d0-9659-da2e8948474e}">
+                        <labels>
+                          <label description="End Date" languagecode="1033" />
+                        </labels>
+                        <control id="ms_enddate" classid="{5b773807-9fb2-42db-97c3-7a91eff8adff}" datafieldname="ms_enddate" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

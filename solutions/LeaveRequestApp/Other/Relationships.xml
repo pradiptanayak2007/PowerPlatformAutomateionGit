@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityRelationships xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <EntityRelationship Name="business_unit_ms_employee" />
+  <EntityRelationship Name="business_unit_ms_leaverequest" />
+  <EntityRelationship Name="lk_ms_employee_createdby" />
+  <EntityRelationship Name="lk_ms_employee_modifiedby" />
+  <EntityRelationship Name="lk_ms_leaverequest_createdby" />
+  <EntityRelationship Name="lk_ms_leaverequest_modifiedby" />
+  <EntityRelationship Name="ms_LeaveRequest_ms_Employee" />
+  <EntityRelationship Name="owner_ms_employee" />
+  <EntityRelationship Name="owner_ms_leaverequest" />
+  <EntityRelationship Name="team_ms_employee" />
+  <EntityRelationship Name="team_ms_leaverequest" />
+  <EntityRelationship Name="user_ms_employee" />
+  <EntityRelationship Name="user_ms_leaverequest" />
+</EntityRelationships>
