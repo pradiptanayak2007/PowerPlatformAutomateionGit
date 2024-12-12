@@ -54,7 +54,7 @@ jobs:
       with:
         lfs: true
     - name: Install Power Platform CLI (PAC)
-      uses: microsoft/powerplatform-actions/actions-install@v1
+      uses: microsoft/powerplatform-actions/actions-install@v1.4.0
       
     - name: Pack solution
       uses: microsoft/powerplatform-actions/pack-solution@v1.4.0
