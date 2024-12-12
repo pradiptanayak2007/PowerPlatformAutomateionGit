@@ -35,7 +35,7 @@ on:
 env:
 #edit your values here
   BUILD_ENVIRONMENT_URL: 'https://test-pporg.crm8.dynamics.com/'
-  PRODUCTION_ENVIRONMENT_URL: 'https://prod-pporg.crm8.dynamics.com'
+  PRODUCTION_ENVIRONMENT_URL: 'https://prod-pporg.crm.dynamics.com'
   CLIENT_ID: '6daa83ee-0b91-4e08-a6b1-2c1b922bca58'
   TENANT_ID: '58517fc9-ef86-4031-823c-8ca6cff2365d'
 
