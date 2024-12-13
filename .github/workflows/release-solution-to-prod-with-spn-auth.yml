@@ -64,7 +64,7 @@ jobs:
         solution-file: ${{ github.event.inputs.solution_outbound_folder}}/${{ github.event.inputs.solution_name }}.zip
         solution-type: Unmanaged
 
-    - name: Import solution as unmanaged to build env
+    - name:  as unmanaged to build env
       uses: microsoft/powerplatform-actions/import-solution@v1.4.0
       with:
         environment-url: ${{env.BUILD_ENVIRONMENT_URL}}
@@ -108,6 +108,9 @@ jobs:
       with:
         name: managedSolutions
         path: ${{ github.event.inputs.solution_release_folder}}
+    - name: Install Power Platform CLI (PAC)
+      uses: microsoft/powerplatform-actions/actions-install@v1.4.0
+      
     - name: Import solution to prod env
       uses: microsoft/powerplatform-actions/import-solution@v1.4.0
       with:
