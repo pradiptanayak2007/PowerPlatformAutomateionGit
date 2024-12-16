@@ -1,7 +1,7 @@
 	{
 	  "EnvironmentVariables": [
 	    {
-	      "SchemaName": "ms_ManagerDefaultValue",
+	      "SchemaName": "ms_OptionalLeave",
 	      "Value": "200"
 	    }
 	  ],
