@@ -121,3 +121,5 @@ jobs:
         solution-file: ${{ github.event.inputs.solution_release_folder}}/${{ github.event.inputs.solution_name }}.zip
         force-overwrite: true
         publish-changes: true
+        use-deployment-settings-file: true
+        deployment-settings-file: ./Settings/Setting-Dev.json
