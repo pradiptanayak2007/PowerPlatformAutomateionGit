@@ -6,3 +6,4 @@ MS PP Actions : https://github.com/microsoft/powerplatform-actions-lab/tree/main
 #to add Setting files
 
 https://www.lewisdoes.dev/blog/adding-deployment-settings-files-to-automated-deployments-using-github-actions/
+#Service Principle used # Power Platform Service Principle
