@@ -1,9 +1,15 @@
-	{
-	  "EnvironmentVariables": [
-	    {
-	      "SchemaName": "ms_OptionalLeave",
-	      "Value": "200"
-	    }
-	  ],
-	  "ConnectionReferences": []
+{
+  "EnvironmentVariables": [
+    {
+      "SchemaName": "ms_OptionalLeave",
+      "Value": "200"
+    }
+  ],
+  "ConnectionReferences": [
+    {
+      "LogicalName": "cr7aa_VirtualStudentConnectionRef",
+      "ConnectionId": "9e25c7494f0a441b85cf1fb01cf0f2a5",
+      "ConnectorId": "/providers/Microsoft.PowerApps/apis/shared_sql"
+    }
+  ]
 }
