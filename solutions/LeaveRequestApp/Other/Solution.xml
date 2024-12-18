@@ -8,7 +8,7 @@
     <Descriptions>
       <Description description="Leave Request App" languagecode="1033" />
     </Descriptions>
-    <Version>1.0.0.0</Version>
+    <Version>1.0.0.2</Version>
     <Managed>0</Managed>
     <Publisher>
       <UniqueName>Microsoft</UniqueName>
@@ -86,11 +86,6 @@
       <RootComponent type="1" schemaName="ms_leaverequest" behavior="0" />
       <RootComponent type="300" schemaName="ms_applicationdemo_af172" behavior="0" />
     </RootComponents>
-    <MissingDependencies>
-      <MissingDependency>
-        <Required type="connectionreference" displayName="cr7aa_VirtualStudentConnectionRef" solution="Active" id.connectionreferencelogicalname="cr7aa_VirtualStudentConnectionRef" />
-        <Dependent type="300" schemaName="ms_applicationdemo_af172" displayName="application demo" />
-      </MissingDependency>
-    </MissingDependencies>
+    <MissingDependencies />
   </SolutionManifest>
 </ImportExportXml>
