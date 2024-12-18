@@ -486,17 +486,17 @@
               <Description description="" languagecode="1033" />
             </Descriptions>
             <options>
-              <option value="741220000" ExternalValue="">
+              <option value="741220000" ExternalValue="" IsHidden="0">
                 <labels>
                   <label description="Sick Leave" languagecode="1033" />
                 </labels>
               </option>
-              <option value="741220001" ExternalValue="">
+              <option value="741220001" ExternalValue="" IsHidden="0">
                 <labels>
                   <label description="Vacation" languagecode="1033" />
                 </labels>
               </option>
-              <option value="741220002" ExternalValue="">
+              <option value="741220002" ExternalValue="" IsHidden="0">
                 <labels>
                   <label description="Personal Leave" languagecode="1033" />
                 </labels>

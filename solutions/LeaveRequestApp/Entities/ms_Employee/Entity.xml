@@ -331,22 +331,22 @@
               <Description description="" languagecode="1033" />
             </Descriptions>
             <options>
-              <option value="741220000" ExternalValue="">
+              <option value="741220000" ExternalValue="" IsHidden="0">
                 <labels>
                   <label description="HR" languagecode="1033" />
                 </labels>
               </option>
-              <option value="741220001" ExternalValue="">
+              <option value="741220001" ExternalValue="" IsHidden="0">
                 <labels>
                   <label description="IT" languagecode="1033" />
                 </labels>
               </option>
-              <option value="741220002" ExternalValue="">
+              <option value="741220002" ExternalValue="" IsHidden="0">
                 <labels>
                   <label description="Finance" languagecode="1033" />
                 </labels>
               </option>
-              <option value="741220003" ExternalValue="">
+              <option value="741220003" ExternalValue="" IsHidden="0">
                 <labels>
                   <label description="Sales" languagecode="1033" />
                 </labels>

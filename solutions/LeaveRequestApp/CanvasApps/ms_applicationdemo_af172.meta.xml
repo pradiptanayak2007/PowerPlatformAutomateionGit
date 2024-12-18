@@ -1,20 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <CanvasApp xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>ms_applicationdemo_af172</Name>
-  <AppVersion>2024-12-17T15:00:01Z</AppVersion>
+  <AppVersion>2024-12-18T06:59:25Z</AppVersion>
   <Status>Ready</Status>
   <CreatedByClientVersion>3.24122.12.0</CreatedByClientVersion>
   <MinClientVersion>3.24122.12.0</MinClientVersion>
-  <Tags>{"primaryDeviceWidth":"1366","primaryDeviceHeight":"768","supportsPortrait":"true","supportsLandscape":"true","primaryFormFactor":"Tablet","showStatusBar":"false","publisherVersion":"3.24122.12","minimumRequiredApiVersion":"2.2.0","hasComponent":"false","hasUnlockedComponent":"false","isUnifiedRootApp":"false"}</Tags>
+  <Tags>{"primaryDeviceWidth":"1366","primaryDeviceHeight":"768","supportsPortrait":"true","supportsLandscape":"true","primaryFormFactor":"Tablet","showStatusBar":"false","publisherVersion":"3.24122.12","minimumRequiredApiVersion":"2.2.0","hasComponent":"false","hasUnlockedComponent":"false","isUnifiedRootApp":"false","sienaVersion":"20241217T155056Z-3.24122.12.0"}</Tags>
   <IsCdsUpgraded>0</IsCdsUpgraded>
   <GalleryItemId xsi:nil="true"></GalleryItemId>
   <BackgroundColor>RGBA(0,176,240,1)</BackgroundColor>
   <DisplayName>application demo</DisplayName>
   <Description xsi:nil="true"></Description>
-  <CommitMessage xsi:nil="true"></CommitMessage>
+  <CommitMessage>Add SQL</CommitMessage>
   <Publisher xsi:nil="true"></Publisher>
   <AuthorizationReferences>[]</AuthorizationReferences>
-  <ConnectionReferences>{}</ConnectionReferences>
+  <ConnectionReferences>{"321640e7-e48a-406e-bf95-de60993d448b":{"id":"/providers/microsoft.powerapps/apis/shared_office365users","displayName":"Office 365 Users","iconUri":"https://connectoricons-prod.azureedge.net/releases/v1.0.1718/1.0.1718.3951/office365users/icon.png","dataSources":["Office365Users"],"dependencies":[],"dependents":[],"parameterHints":{},"parameterHintsV2":{},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{},"apiTier":"Standard","actions":["MyProfile"]},"446a4ef5-306c-4e19-8610-e1f9164c3f37":{"id":"/providers/microsoft.powerapps/apis/shared_sql","xrmConnectionReferenceLogicalName":"cr7aa_VirtualStudentConnectionRef","displayName":"SQL Server","executionRestrictions":{"version":2,"modifiedOn":"2024-12-18 06:59:23","appVer":"3.24122.12","apiId":"/providers/microsoft.powerapps/apis/shared_sql","apiVer":2,"policy":"{\"tabularActions\":{\"[dbo].[contract]\":[\"get\"]},\"serviceActions\":[]}"},"iconUri":"https://connectoricons-prod.azureedge.net/releases/v1.0.1718/1.0.1718.3951/sql/icon.png","dataSources":["Contract","Park"],"dependencies":[],"dependents":[],"parameterHints":{},"parameterHintsV2":{},"isOnPremiseConnection":false,"sharedConnectionId":"2b6d12f9-4d44-4940-8164-a111243407f9","bypassConsent":false,"dataSets":{"pragmaticworks.database.windows.net,Demo":{"dataSources":{"Contract":{"tableName":"[dbo].[Contract]"},"Park":{"tableName":"[dbo].[Park]"}}}},"apiTier":"Premium","actions":["providers/PowerPlatform.Governance/Operations/Read"],"endpoints":["pragmaticworks.database.windows.net,Demo"],"authenticationType":"sqlAuthentication"}}</ConnectionReferences>
   <DatabaseReferences>{}</DatabaseReferences>
   <AppComponents>[]</AppComponents>
   <AppComponentDependencies>[]</AppComponentDependencies>
@@ -24,7 +24,7 @@
   <AdminControlBypassConsent>0</AdminControlBypassConsent>
   <EmbeddedApp xsi:nil="true"></EmbeddedApp>
   <IntroducedVersion>1.0</IntroducedVersion>
-  <CdsDependencies>{"cdsdependencies":[]}</CdsDependencies>
+  <CdsDependencies>{"cdsdependencies":[{"logicalname":"cr7aa_VirtualStudentConnectionRef","componenttype":10047,"componenttypeplatformname":"ConnectionReference"}]}</CdsDependencies>
   <IsCustomizable>1</IsCustomizable>
   <BackgroundImageUri>/CanvasApps/ms_applicationdemo_af172_BackgroundImageUri</BackgroundImageUri>
   <DocumentUri>/CanvasApps/ms_applicationdemo_af172_DocumentUri.msapp</DocumentUri>

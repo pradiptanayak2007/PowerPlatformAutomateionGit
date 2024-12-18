@@ -86,6 +86,11 @@
       <RootComponent type="1" schemaName="ms_leaverequest" behavior="0" />
       <RootComponent type="300" schemaName="ms_applicationdemo_af172" behavior="0" />
     </RootComponents>
-    <MissingDependencies />
+    <MissingDependencies>
+      <MissingDependency>
+        <Required type="connectionreference" displayName="cr7aa_VirtualStudentConnectionRef" solution="Active" id.connectionreferencelogicalname="cr7aa_VirtualStudentConnectionRef" />
+        <Dependent type="300" schemaName="ms_applicationdemo_af172" displayName="application demo" />
+      </MissingDependency>
+    </MissingDependencies>
   </SolutionManifest>
 </ImportExportXml>
