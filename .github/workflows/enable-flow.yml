@@ -1,0 +1,37 @@
+name: CI/CD for Power Platform
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  enable-flows:
+    runs-on: ubuntu-latest
+
+    steps:
+    # Step 1: Checkout repo
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    # Step 2: Authenticate to Power Platform
+    - name: Authenticate to Power Platform
+      uses: microsoft/powerplatform-actions/authenticate@v1
+      with:
+        client-id: ${{ secrets.AZURE_CLIENT_ID }}
+        client-secret: ${{ secrets.AZURE_CLIENT_SECRET }}
+        tenant-id: ${{ secrets.AZURE_TENANT_ID }}
+        environment-url: ${{ secrets.POWER_PLATFORM_URL }}
+
+    # Step 3: Enable Power Platform Flows
+    - name: Enable Flow 1
+      uses: microsoft/powerplatform-actions/enable-flow@v1
+      with:
+        environment-url: ${{ secrets.POWER_PLATFORM_URL }}
+        flow-name: 'Flow Name 1'
+
+    - name: Enable Flow 2
+      uses: microsoft/powerplatform-actions/enable-flow@v1
+      with:
+        environment-url: ${{ secrets.POWER_PLATFORM_URL }}
+        flow-name: 'Flow Name 2'
