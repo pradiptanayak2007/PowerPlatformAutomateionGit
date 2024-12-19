@@ -11,10 +11,10 @@ https://www.lewisdoes.dev/blog/adding-deployment-settings-files-to-automated-dep
 
 #Service Principle used # Power Platform Service Principle
 
-#Pac Command to Generate Settings file.
+*Pac Command to Generate Settings file.*
 
 pac solution create-settings -z C:\MySolutionFolder\MySolution.zip -s C:\MySolutionFolder\MySettings.json
 
-#Actions
+*Actions*
 
 https://github.com/microsoft/powerplatform-actions-lab
