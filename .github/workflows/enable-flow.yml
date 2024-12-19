@@ -55,7 +55,7 @@ jobs:
     
      # Step 3: Enable Power Platform Flows
     - name: Enable Flow IsEmpty
-      uses: microsoft/powerplatform-actions/enable-flow@v1
+      uses: microsoft/powerplatform-actions/enable-flow@main
       with:
         environment-url: ${{ env.ENVIRONMENT_URL }}
         flow-name: 'IsEmpty'  
